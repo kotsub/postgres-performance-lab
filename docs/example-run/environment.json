@@ -1,0 +1,20 @@
+{
+  "created_at_utc": "2026-10-27T16:01:28.064363+00:00",
+  "server_version": "17.11 (Debian 17.11-1.pgdg12+2)",
+  "pgbench_version": "pgbench (PostgreSQL) 17.11 (Debian 17.11-1.pgdg12+2)",
+  "python": "3.11.2",
+  "rows": 200000,
+  "customers": 10000,
+  "clients": [
+    1,
+    4,
+    8
+  ],
+  "seconds": 3,
+  "repeats": 3,
+  "warmup_seconds": 1,
+  "shared_buffers": "128MB",
+  "max_parallel_workers_per_gather": "0",
+  "jit": "off",
+  "logging": "all transactions; includes instrumentation overhead"
+}
